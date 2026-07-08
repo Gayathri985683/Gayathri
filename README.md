@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <title>Link Javascript Example</title>
+        <title>selector with color change</title>
     </head>
     <body>
-        <h1>Hello from dept of CAI</h1>
-        <center><h1> Welcome to FSD-II lab</h1></center>
-        <center><h1>Here we are Learning Full Stack Devolopment using HTML,CSS,JAVASCRIPT</h1></center>
-        <!--Link to external javascript file-->
-        <script src="script1.js"></script>
+        <h1 id="title"> Hello SVPCET students</h1>
+        <h1></h1>
+        <h1><p class="message"> This is dept of CAI</p></h1>
+        <h1><p>This is 3rd year 5th sem</p></h1>
+        <button onclick="selectElements()">click me</button>
+        <script src="script2.js"></script>
     </body>
 </html>
